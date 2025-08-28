@@ -1,11 +1,10 @@
 import React from 'react'
+import Body from './components/Body'
 
 const App = () => {
   return (
-    <div >
-      <h1 className="text-4xl font-bold text-green-500">Welcome to CINEPLEX-GPT</h1>
-    </div>
+    <Body/>
   )
 }
 
-export default App
+export default App;
